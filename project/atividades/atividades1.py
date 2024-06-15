@@ -42,3 +42,5 @@ p1.prof()
 print(p1.profissao)
 print(p1.nome)
 print(p1.idade)
+
+
