@@ -18,8 +18,19 @@ test={
   ]
 }
 
+person='{"naruto":19,"kurama":9,"kakashi":30,"sakura":8}'
 
+person_json=json.loads(person)
+
+print(person_json["naruto"])
+for i in person_json.keys():
+    print(i)
+
+
+
+""" 
 p=test["pessoas"]
+
 lista_email=[]
 for i in range(len(p)):
     clientes=p[i]
@@ -30,3 +41,4 @@ for i in range(len(p)):
 
 print(test)
 print(lista_email )
+"""
