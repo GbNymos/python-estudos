@@ -9,7 +9,7 @@ mylist=[]
 def inluir():
     mylist.append(input("Digite sua tarefa:"))
     mylist.append(',')
-    arquivo=open("tarefas.txt","a")
+    arquivo=open("..tarefas.txt","a")
     arquivo.writelines(mylist)
     
 

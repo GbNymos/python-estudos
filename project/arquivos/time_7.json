@@ -1,0 +1,33 @@
+{
+    "Naruto Uzumaki": {
+        "poder": [
+            "Rasengan",
+            "Kurama",
+            "Modo S\u00e1bio"
+        ],
+        "cl\u00e3": "Uzumaki"
+    },
+    "Sasuke Uchiha": {
+        "poder": [
+            "Sharingan",
+            "Rinnegan",
+            "Chidori"
+        ],
+        "cla": "Uchiha"
+    },
+    "Sakura Haruno": {
+        "poder": [
+            "For\u00e7a sobre-humana",
+            "Jutsus m\u00e9dicos"
+        ],
+        "cla": "Haruno"
+    },
+    "Kakashi Hatake": {
+        "poder": [
+            "Sharingan",
+            "espada trovao",
+            "Raikiri"
+        ],
+        "cla": "Hatake"
+    }
+}

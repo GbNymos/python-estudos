@@ -1,34 +1,21 @@
 import json
 
-## ja e um arquivo json tranformado em dict
-test={
-  "pessoas": [
-    {"nome": "Alice", 
-     "idade": 30,
-     "email": "alice@example.com"
-    },
-    {"nome": "Bob",
-     "idade": 25,
-     "email": "bob@example.com"
-    },
-    {"nome": "Carol",
-     "idade": 27,
-     "email": "carol@example.com"
-    }
-  ]
-}
-
+"""  string para json
 person='{"naruto":19,"kurama":9,"kakashi":30,"sakura":8}'
-
 person_json=json.loads(person)
 
 print(person_json["naruto"])
 for i in person_json.keys():
     print(i)
+"""
 
+##Formas de abrir o arquivo json externo no python
+#with open("D:/convite/python-estudos/project/arquivos/pessoas.json") as pessoas:
+    #test=json.load(pessoas)
+#test=json.load(open("D:/convite/python-estudos/project/arquivos/pessoas.json"))
+abrir_json=open("D:/convite/python-estudos/project/arquivos/pessoas.json")
+test=json.load(abrir_json)
 
-
-""" 
 p=test["pessoas"]
 
 lista_email=[]
@@ -41,4 +28,3 @@ for i in range(len(p)):
 
 print(test)
 print(lista_email )
-"""
