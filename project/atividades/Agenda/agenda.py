@@ -4,7 +4,7 @@ from sqlite3 import Error
 
 
 def conexaoBanco():
-    caminho="D:\\convite\\python-estudos\\project\\atividades\\banco_de _dados\\agenda" 
+    caminho="D:\\convite\\python-estudos\\project\\atividades\\banco_de_dados\\agenda" 
     conexao=None
 
     try:
