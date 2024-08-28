@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'first_hello/style.css' %}">
+    <title>e ano novo?</title>
+</head>
+<body>
+    <h1>HOje e ano novo ??? </h1>
+    {%if new_year%}
+    <h1>SIM!!!!</h1>
+    {%else%}
+    <h1>NAO  </h1>
+    {%endif%}
+</body>
+</html>

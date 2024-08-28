@@ -1,0 +1,15 @@
+{%extends "tarefas/layout.html"%}
+
+{%block body%}
+    <h1>Lista de tarefas</h1>
+    <ul>
+        {% for item in lista%}
+        <li>{{item}}</li>
+           {%endfor%}
+    </ul>
+
+{%endblock%}
+
+{%block footer%}
+<p>meu site 2024</p>
+{%endblock%}

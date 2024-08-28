@@ -1,0 +1,10 @@
+{%extends "tarefas/layout.html"%}
+
+{%block body%}
+    <form action="" >
+        <label for="tarefa">Adicione tarefas:</label>
+        <input type="text" name="tarefa" id="tarefa">
+        <input type="submit">
+    </form>
+    <a href=" {%url 'index' %}">Voltar</a>
+{%endblock%}
