@@ -1,10 +1,11 @@
 {%extends "tarefas/layout.html"%}
 
 {%block body%}
-    <form action="" >
-        <label for="tarefa">Adicione tarefas:</label>
-        <input type="text" name="tarefa" id="tarefa">
+    <form action="{%url 'lista:add' %}" method="POST" >
+        {% csrf_token %}
+        {{form}}
         <input type="submit">
     </form>
-    <a href=" {%url 'index' %}">Voltar</a>
+    <a href=" {%url 'lista:index' %}">Voltar</a>
 {%endblock%}
+

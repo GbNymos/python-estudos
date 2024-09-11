@@ -5,9 +5,12 @@
     <ul>
         {% for item in lista%}
         <li>{{item}}</li>
+        {%empty%}
+        <h2>Nao tem tarefas</h2>
            {%endfor%}
     </ul>
 
+    <a href="{%url 'lista:add' %}"> Adicionar tarefas</a>
 {%endblock%}
 
 {%block footer%}
